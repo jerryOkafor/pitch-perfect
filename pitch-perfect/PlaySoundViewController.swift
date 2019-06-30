@@ -10,10 +10,17 @@ import UIKit
 
 class PlaySoundViewController: UIViewController {
 
+//    override var prefersStatusBarHidden: Bool{
+//        get{return true}
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        //make fulscreen 
+        navigationController?.isNavigationBarHidden = true
     }
     
 

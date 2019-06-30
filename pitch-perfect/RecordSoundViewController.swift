@@ -10,9 +10,16 @@ import UIKit
 
 class RecordSoundViewController: UIViewController {
 
+//    override var prefersStatusBarHidden: Bool{
+//        get{return true}
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //make fullscreens
+        navigationController?.isNavigationBarHidden = true
     }
 
 
