@@ -32,7 +32,8 @@ class PlaySoundsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        self.title = "Pitch Perfect"
         self.navigationItem.backBarButtonItem = nil
         self.navigationItem.hidesBackButton = true
         
